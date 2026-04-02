@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Capacidad Industrial - Parámetros Fijos</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/config.js" defer></script>
+    <script src="js/utils.js" defer></script>
+    <script src="js/engine.js" defer></script>
+    <script src="js/ui.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <link href="style.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="section-title">
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <img src="logo.png" alt="Logo Planta" style="width: auto; height: 60px; object-fit: contain;">
+                <h2 style="margin:0;"> PROYECCIÓN DE CARGA SEMANAL 2026</h2>
+            </div>
+            <div>
+                <select id="filtroMes" style="padding: 5px 10px; border-radius: 4px; border: none; outline: none; font-weight: bold; cursor: pointer;">
+                    <option value="todos">Todos los meses</option>
+                    <option value="0">Enero</option>
+                    <option value="1">Febrero</option>
+                    <option value="2">Marzo</option>
+                    <option value="3">Abril</option>
+                    <option value="4">Mayo</option>
+                    <option value="5">Junio</option>
+                    <option value="6">Julio</option>
+                    <option value="7">Agosto</option>
+                    <option value="8">Septiembre</option>
+                    <option value="9">Octubre</option>
+                    <option value="10">Noviembre</option>
+                    <option value="11">Diciembre</option>
+                </select>
+                <button id="btnConfig" class="btn-primary" style="width: auto; margin: 0; margin-left: 10px;">⚙️ Parámetros</button>
+            </div>
+        </div>
+
+        <div class="process-grid" id="processGrid"></div>
+
+        <div class="section-title" style="background: #455a64;">
+            <h2 style="margin:0;"> RESUMEN DE CAPACIDAD TOTAL DEL PERIODO</h2>
+        </div>
+        <div class="card" style="margin-bottom: 40px;">
+            <h3>Tabla Analítica de Capacidad</h3>
+            <table id="analisisTable">
+                <thead>
+                    <tr>
+                        <th>Proceso</th>
+                        <th>Estaciones</th>
+                        <th>Horas/Semana Unit.</th>
+                        <th>Capacidad Total (Periodo)</th>
+                        <th>Carga Req.</th>
+                        <th>Balance</th>
+                        <th>% Ocupación</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="section-title" style="background: #006064; cursor: pointer;">
+            <h2 style="margin:0; width: 100%;">
+                <details>
+                    <summary style="outline: none;">DESGLOSE POR NUMERO DE PARTE)</summary>
+                    <div class="card full-width" style="margin-top: 20px; color: #333;">
+                        <h3>Consumo de Horas por NUMERO DE PARTE</h3>
+                        <table id="modelosTable">
+                            <thead>
+                                <tr id="modelosTableHeader">
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </details>
+            </h2>
+        </div>
+
+        <div class="section-title" style="background: #b71c1c; cursor: pointer;">
+            <h2 style="margin:0; width: 100%;">
+                <details>
+                    <summary style="outline: none;">NUMEROS OMITIDOS</summary>
+                    <div class="card full-width" style="margin-top: 20px; color: #333;">
+                        <table id="omitidosTable">
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Cantidad Total Pedida</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </details>
+            </h2>
+        </div>
+    </div>
+
+    <div id="configModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h3 style="margin-top: 0; color: var(--primary-dark);">Parámetros de Planta</h3>
+
+            <div class="config-group">
+                <label>Eficiencia Global de Planta:</label>
+                <input type="number" step="0.01" id="inEffGlobal" style="width: 120px; text-align: center;">
+            </div>
+
+            <details class="config-details">
+                <summary>Horario: Planta Principal</summary>
+                <table class="config-table">
+                    <tr>
+                        <th>Día</th>
+                        <th>1er Turno</th>
+                        <th>2do Turno</th>
+                    </tr>
+                    <tr>
+                        <td>Lun</td>
+                        <td><input id="pp-lun-t1" type="number" step="0.5"></td>
+                        <td><input id="pp-lun-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Mar</td>
+                        <td><input id="pp-mar-t1" type="number" step="0.5"></td>
+                        <td><input id="pp-mar-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Mié</td>
+                        <td><input id="pp-mie-t1" type="number" step="0.5"></td>
+                        <td><input id="pp-mie-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Jue</td>
+                        <td><input id="pp-jue-t1" type="number" step="0.5"></td>
+                        <td><input id="pp-jue-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Vie</td>
+                        <td><input id="pp-vie-t1" type="number" step="0.5"></td>
+                        <td><input id="pp-vie-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Sáb</td>
+                        <td><input id="pp-sab-t1" type="number" step="0.5"></td>
+                        <td><input id="pp-sab-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Dom</td>
+                        <td><input id="pp-dom-t1" type="number" step="0.5"></td>
+                        <td><input id="pp-dom-t2" type="number" step="0.5"></td>
+                    </tr>
+                </table>
+            </details>
+
+            <details class="config-details">
+                <summary>Horario: Taller de Pintura</summary>
+                <table class="config-table">
+                    <tr>
+                        <th>Día</th>
+                        <th>1er Turno</th>
+                        <th>2do Turno</th>
+                    </tr>
+                    <tr>
+                        <td>Lun</td>
+                        <td><input id="tp-lun-t1" type="number" step="0.5"></td>
+                        <td><input id="tp-lun-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Mar</td>
+                        <td><input id="tp-mar-t1" type="number" step="0.5"></td>
+                        <td><input id="tp-mar-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Mié</td>
+                        <td><input id="tp-mie-t1" type="number" step="0.5"></td>
+                        <td><input id="tp-mie-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Jue</td>
+                        <td><input id="tp-jue-t1" type="number" step="0.5"></td>
+                        <td><input id="tp-jue-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Vie</td>
+                        <td><input id="tp-vie-t1" type="number" step="0.5"></td>
+                        <td><input id="tp-vie-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Sáb</td>
+                        <td><input id="tp-sab-t1" type="number" step="0.5"></td>
+                        <td><input id="tp-sab-t2" type="number" step="0.5"></td>
+                    </tr>
+                    <tr>
+                        <td>Dom</td>
+                        <td><input id="tp-dom-t1" type="number" step="0.5"></td>
+                        <td><input id="tp-dom-t2" type="number" step="0.5"></td>
+                    </tr>
+                </table>
+            </details>
+
+            <button id="btnGuardarConfig" class="btn-primary">Guardar y Recalcular</button>
+        </div>
+    </div>
+</body>
+
+</html>

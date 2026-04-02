@@ -1,0 +1,2873 @@
+{
+    "modelos": {
+        "P09171-055-065-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 47.0,
+                "Rebabeo": 70.0,
+                "Doblez": 88.0,
+                "Insercion": 0,
+                "Empaque": 60.0,
+                "Lavado": 90.0,
+                "Masking": 23.0,
+                "Pintura": 86.0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "PT09171-054-014-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 55.0,
+                "Rebabeo": 70.0,
+                "Doblez": 88.0,
+                "Insercion": 0,
+                "Empaque": 60.0,
+                "Lavado": 90.0,
+                "Masking": 23.0,
+                "Pintura": 86.0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "PT09171-057-006-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 38.0,
+                "Rebabeo": 70.0,
+                "Doblez": 88.0,
+                "Insercion": 0,
+                "Empaque": 60.0,
+                "Lavado": 90.0,
+                "Masking": 23.0,
+                "Pintura": 80.0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-053-112-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 59.0,
+                "Rebabeo": 70.0,
+                "Doblez": 88.0,
+                "Insercion": 0,
+                "Empaque": 60.0,
+                "Lavado": 90.0,
+                "Masking": 23.0,
+                "Pintura": 90.0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "PT09171-092-017-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 59.0,
+                "Rebabeo": 70.0,
+                "Doblez": 88.0,
+                "Insercion": 0,
+                "Empaque": 60.0,
+                "Lavado": 90.0,
+                "Masking": 23.0,
+                "Pintura": 95.0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40171-502-2": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 48.0,
+                "Rebabeo": 0,
+                "Doblez": 400.0,
+                "Insercion": 150.0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40171-502-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 51.0,
+                "Rebabeo": 0,
+                "Doblez": 400.0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40171-502": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 22.0,
+                "Pulido": 0
+            }
+        },
+        "R40171-232": {
+            "corte_tipo": "Laser",
+            "tasas": {
+                "Corte": 90.0,
+                "Rebabeo": 53.0,
+                "Doblez": 120.0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-232-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 27.0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "STHB-3": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 164.0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40111-028": {
+            "corte_tipo": "Laser",
+            "tasas": {
+                "Corte": 51.0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "F4002676": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 103.0,
+                "Pulido": 0
+            }
+        },
+        "R09111-091": {
+            "corte_tipo": "Laser",
+            "tasas": {
+                "Corte": 225.0,
+                "Rebabeo": 0,
+                "Doblez": 100.0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-295-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 48.0,
+                "Rebabeo": 0,
+                "Doblez": 100.0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 58.0,
+                "Ensamble": 0,
+                "Pulido": 54.0
+            }
+        },
+        "P40171-295-2": {
+            "corte_tipo": "Laser",
+            "tasas": {
+                "Corte": 48.0,
+                "Rebabeo": 0,
+                "Doblez": 66.0,
+                "Insercion": 112.0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 129.0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40111-022": {
+            "corte_tipo": "Laser",
+            "tasas": {
+                "Corte": 163.0,
+                "Rebabeo": 65.0,
+                "Doblez": 450.0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-295-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 40.0,
+                "Ensamble": 0,
+                "Pulido": 32.0
+            }
+        },
+        "R09111-033": {
+            "corte_tipo": "Dual",
+            "tasas": {
+                "Corte": 164.0,
+                "Rebabeo": 150.0,
+                "Doblez": 249.0,
+                "Insercion": 0,
+                "Empaque": 1469.0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R09171-012": {
+            "corte_tipo": "Dual",
+            "tasas": {
+                "Corte": 490.0,
+                "Rebabeo": 286.0,
+                "Doblez": 240.0,
+                "Insercion": 178.0,
+                "Empaque": 1469.0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40111-030": {
+            "corte_tipo": "Dual",
+            "tasas": {
+                "Corte": 400.0,
+                "Rebabeo": 750.0,
+                "Doblez": 327.0,
+                "Insercion": 0,
+                "Empaque": 1200.0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R09171-014": {
+            "corte_tipo": "Dual",
+            "tasas": {
+                "Corte": 86.0,
+                "Rebabeo": 132.0,
+                "Doblez": 328.0,
+                "Insercion": 240.0,
+                "Empaque": 1469.0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R09171-013": {
+            "corte_tipo": "Dual",
+            "tasas": {
+                "Corte": 212.0,
+                "Rebabeo": 293.0,
+                "Doblez": 328.0,
+                "Insercion": 240.0,
+                "Empaque": 1469.0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-152-028-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-237-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-261-1": {
+            "corte_tipo": "Dual",
+            "tasas": {
+                "Corte": 48.0,
+                "Rebabeo": 0,
+                "Doblez": 100.0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 33.0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-261-2": {
+            "corte_tipo": "Laser",
+            "tasas": {
+                "Corte": 48.0,
+                "Rebabeo": 0,
+                "Doblez": 66.0,
+                "Insercion": 112.0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 129.0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40171-234": {
+            "corte_tipo": "Laser",
+            "tasas": {
+                "Corte": 90.0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 21.0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-261-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 33.0,
+                "Ensamble": 0,
+                "Pulido": 14.0
+            }
+        },
+        "P40171-235-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-238-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-234-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P19171-076-047-1": {
+            "corte_tipo": "Torreta",
+            "tasas": {
+                "Corte": 67.0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-264-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-057-074-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-056-115-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-053-167-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-053-142-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-053-190-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-054-239-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-056-135-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P019171-055-065-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-093-144-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-093-146-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-094-006-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-094-032-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-094-123-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-054-186-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-232-001-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-233-0001": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-154-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-591-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-597-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "PT09171-053-040-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-052-096-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-053-184-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-053-120-7": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-053-120-4": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "PT09171-053-044-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-227-004-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P19171-195-054-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "S400-0022-6": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "S280-0019-9": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P09171-0154-000-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40111-006": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40111-051": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "R40111-052": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "S090-0007-002": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "F4004677-0": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
+        "P40171-312-001-1": {
+            "corte_tipo": "nan",
+            "tasas": {
+                "Corte": 0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        }
+    },
+    "ordenes_compra": [{
+            "modelo": "P09171-053-112-1",
+            "cantidad": 530,
+            "fecha_entrega": "2026-01-02"
+        },
+        {
+            "modelo": "P40171-295-000-1",
+            "cantidad": 600,
+            "fecha_entrega": "2026-01-02"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-02"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-05"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 300,
+            "fecha_entrega": "2026-01-05"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-09"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-09"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-01-09"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-09"
+        },
+        {
+            "modelo": "P09171-053-167-1",
+            "cantidad": 12,
+            "fecha_entrega": "2026-01-12"
+        },
+        {
+            "modelo": "P09171-053-167-1",
+            "cantidad": 10,
+            "fecha_entrega": "2026-01-12"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 530,
+            "fecha_entrega": "2026-01-15"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-16"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-16"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-01-16"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-16"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 248,
+            "fecha_entrega": "2026-01-19"
+        },
+        {
+            "modelo": "P09171-056-115-1",
+            "cantidad": 119,
+            "fecha_entrega": "2026-01-19"
+        },
+        {
+            "modelo": "PT09171-054-014-1",
+            "cantidad": 375,
+            "fecha_entrega": "2026-01-19"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 572,
+            "fecha_entrega": "2026-01-19"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-01-19"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-23"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-23"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-01-23"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-23"
+        },
+        {
+            "modelo": "PT09171-057-006-1",
+            "cantidad": 60,
+            "fecha_entrega": "2026-01-26"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 1900,
+            "fecha_entrega": "2026-01-26"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-30"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-01-30"
+        },
+        {
+            "modelo": "R16040-093",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-02-02"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 660,
+            "fecha_entrega": "2026-02-02"
+        },
+        {
+            "modelo": "P40171-233-000-1",
+            "cantidad": 350,
+            "fecha_entrega": "2026-02-02"
+        },
+        {
+            "modelo": "PT09171-054-014-1",
+            "cantidad": 2700,
+            "fecha_entrega": "2026-02-02"
+        },
+        {
+            "modelo": "PT09171-092-017-1",
+            "cantidad": 215,
+            "fecha_entrega": "2026-02-02"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 600,
+            "fecha_entrega": "2026-02-02"
+        },
+        {
+            "modelo": "P09171-057-072-1",
+            "cantidad": 700,
+            "fecha_entrega": "2026-02-02"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P09171-092-001-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P09171-092-026-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P40171-152-028-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P40171-295-000-1",
+            "cantidad": 300,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P19171-065-325-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P19171-029-116-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P19171-029-057-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P09171-093-187-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P09171-057-010-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "P09171-057-010-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-06"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-09"
+        },
+        {
+            "modelo": "P40171-232-000-1",
+            "cantidad": 660,
+            "fecha_entrega": "2026-02-09"
+        },
+        {
+            "modelo": "P09171-053-167-1",
+            "cantidad": 10,
+            "fecha_entrega": "2026-02-09"
+        },
+        {
+            "modelo": "PT09171-053-013-1",
+            "cantidad": 30,
+            "fecha_entrega": "2026-02-09"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 900,
+            "fecha_entrega": "2026-02-10"
+        },
+        {
+            "modelo": "P40171-295-000-1",
+            "cantidad": 720,
+            "fecha_entrega": "2026-02-10"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 60,
+            "fecha_entrega": "2026-02-11"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "P19171-065-325-1",
+            "cantidad": 285,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "P19171-029-116-1",
+            "cantidad": 747,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "P19171-029-057-1",
+            "cantidad": 194,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-13"
+        },
+        {
+            "modelo": "P40171-232-000-1",
+            "cantidad": 100,
+            "fecha_entrega": "2026-02-16"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 2000,
+            "fecha_entrega": "2026-02-16"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-16"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 500,
+            "fecha_entrega": "2026-02-16"
+        },
+        {
+            "modelo": "P09171-057-072-1",
+            "cantidad": 554,
+            "fecha_entrega": "2026-02-16"
+        },
+        {
+            "modelo": "P09171-057-072-1",
+            "cantidad": 630,
+            "fecha_entrega": "2026-02-16"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 200,
+            "fecha_entrega": "2026-02-16"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-093-144-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-093-146-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-094-006-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-094-032-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-094-123-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "PT09171-092-017-4",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-054-186-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-053-167-1",
+            "cantidad": 65,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P40171-232-001-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "PT09171-092-019-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P09171-054-001-3",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P19171-044-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "P19171-028-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-20"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 380,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 525,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "P40171-232-000-1",
+            "cantidad": 100,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 1100,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "P40171-232-000-1",
+            "cantidad": 100,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "P40171-264-000-1",
+            "cantidad": 2000,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "PT09171-054-014-1",
+            "cantidad": 135,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 500,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "P09121-093-130-1",
+            "cantidad": 1442,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 200,
+            "fecha_entrega": "2026-02-23"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-24"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-24"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-24"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-24"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-02-24"
+        },
+        {
+            "modelo": "S400-0022-6",
+            "cantidad": 1800,
+            "fecha_entrega": "2026-02-27"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-27"
+        },
+        {
+            "modelo": "P40171-312-001-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-27"
+        },
+        {
+            "modelo": "R40111-023",
+            "cantidad": 5,
+            "fecha_entrega": "2026-02-27"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-27"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-02-27"
+        },
+        {
+            "modelo": "R16040-093",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "P40171-233-000-1",
+            "cantidad": 300,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 655,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "P09171-056-115-1",
+            "cantidad": 125,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 895,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 600,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "P09171-053-167-1",
+            "cantidad": 200,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "P40171-232-000-1",
+            "cantidad": 160,
+            "fecha_entrega": "2026-03-02"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 300,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-295-000-1",
+            "cantidad": 315,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-264-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-237-000-1",
+            "cantidad": 4,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-235-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-234-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 6000,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 3000,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-597-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P09171-154-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "P40171-591-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-06"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-09"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 775,
+            "fecha_entrega": "2026-03-09"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 1750,
+            "fecha_entrega": "2026-03-09"
+        },
+        {
+            "modelo": "P40171-264-000-1",
+            "cantidad": 620,
+            "fecha_entrega": "2026-03-09"
+        },
+        {
+            "modelo": "P09171-056-115-1",
+            "cantidad": 170,
+            "fecha_entrega": "2026-03-09"
+        },
+        {
+            "modelo": "P40171-232-000-1",
+            "cantidad": 160,
+            "fecha_entrega": "2026-03-09"
+        },
+        {
+            "modelo": "P40171-234-000-1",
+            "cantidad": 1500,
+            "fecha_entrega": "2026-03-09"
+        },
+        {
+            "modelo": "P19171-076-047-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "P19171-076-047-1",
+            "cantidad": 195,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "R40111-006",
+            "cantidad": 440,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "R40111-051",
+            "cantidad": 60,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "R40111-052",
+            "cantidad": 510,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "S090-0007-002",
+            "cantidad": 1400,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "F4004677-0",
+            "cantidad": 2500,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "P09171-053-142-1",
+            "cantidad": 420,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "P09171-053-190-1",
+            "cantidad": 85,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "P09171-054-239-1",
+            "cantidad": 60,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "P09171-056-135-1",
+            "cantidad": 420,
+            "fecha_entrega": "2026-03-10"
+        },
+        {
+            "modelo": "S280-0019-9",
+            "cantidad": 7500,
+            "fecha_entrega": "2026-03-12"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 2000,
+            "fecha_entrega": "2026-03-12"
+        },
+        {
+            "modelo": "P19171-076-047-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-13"
+        },
+        {
+            "modelo": "S400-0022-6",
+            "cantidad": 1800,
+            "fecha_entrega": "2026-03-13"
+        },
+        {
+            "modelo": "S280-0019-9",
+            "cantidad": 5500,
+            "fecha_entrega": "2026-03-13"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-13"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-13"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-13"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 1700,
+            "fecha_entrega": "2026-03-16"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-03-16"
+        },
+        {
+            "modelo": "P40171-237-000-1",
+            "cantidad": 1100,
+            "fecha_entrega": "2026-03-16"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 850,
+            "fecha_entrega": "2026-03-16"
+        },
+        {
+            "modelo": "P40171-264-000-1",
+            "cantidad": 285,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P40171-237-000-1",
+            "cantidad": 196,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P40171-235-000-1",
+            "cantidad": 195,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P40171-234-000-1",
+            "cantidad": 195,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 195,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 370,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-093-144-1",
+            "cantidad": 110,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-093-146-1",
+            "cantidad": 110,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-094-006-1",
+            "cantidad": 60,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-094-032-1",
+            "cantidad": 470,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-094-123-1",
+            "cantidad": 470,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-054-186-1",
+            "cantidad": 155,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P40171-232-001-1",
+            "cantidad": 2625,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-057-074-6",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-057-074-7",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-093-180-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "PT09171-092-019-1",
+            "cantidad": 1015,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09171-132-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P40171-601-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P19171-044-000-1",
+            "cantidad": 240,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "P09141-037-001-0",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "SBH-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-20"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-03-21"
+        },
+        {
+            "modelo": "P40171-264-000-1",
+            "cantidad": 600,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "P09171-053-120-4",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "P09171-053-120-7",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "P09171-053-184-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "PT09171-053-040-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "PT09171-053-044-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "P09171-052-096-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "P40141-007-014-0",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "P40171-272-003-1",
+            "cantidad": 210,
+            "fecha_entrega": "2026-03-23"
+        },
+        {
+            "modelo": "P40171-597-000-1",
+            "cantidad": 25,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-154-000-1",
+            "cantidad": 70,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P40171-312-001-1",
+            "cantidad": 214,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P40171-591-000-1",
+            "cantidad": 25,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-057-074-6",
+            "cantidad": 405,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-057-074-7",
+            "cantidad": 405,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-093-180-1",
+            "cantidad": 165,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P40171-227-004-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P19171-195-054-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-132-000-1",
+            "cantidad": 195,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P40171-601-000-1",
+            "cantidad": 195,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-053-190-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-054-239-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P09171-056-135-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "SBH-1",
+            "cantidad": 1060,
+            "fecha_entrega": "2026-03-27"
+        },
+        {
+            "modelo": "P19171-076-047-1",
+            "cantidad": 195,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 240,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 75,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40171-272-003-1",
+            "cantidad": 405,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40171-232-000-1",
+            "cantidad": 20,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40141-007-014-0",
+            "cantidad": 383,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40171-029-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40171-244-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P19171-067-010-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P19171-194-001-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40171-092-049-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40171-232-003-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P40171-590-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "P19171-076-051-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-03-30"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-04-03"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-04-03"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-04-06"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-04-06"
+        },
+        {
+            "modelo": "PT09171-053-044-1",
+            "cantidad": 200,
+            "fecha_entrega": "2026-04-06"
+        },
+        {
+            "modelo": "P19171-195-054-1",
+            "cantidad": 50,
+            "fecha_entrega": "2026-04-10"
+        },
+        {
+            "modelo": "P09171-054-006-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P09171-054-001-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P09171-052-005-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 1380,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P40171-237-000-1",
+            "cantidad": 130,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 100,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-04-17"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 272,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-057-072-1",
+            "cantidad": 350,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-057-072-1",
+            "cantidad": 499,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-053-167-1",
+            "cantidad": 765,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 272,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "PT09171-054-014-1",
+            "cantidad": 1500,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 500,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P19171-030-000-3",
+            "cantidad": 1420,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P09171-056-115-1",
+            "cantidad": 1025,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P40171-264-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P19171-030-000-3",
+            "cantidad": 1420,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "PT09171-054-014-1",
+            "cantidad": 1500,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 15000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 16000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-232-001-1",
+            "cantidad": 875,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 400,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 1100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 800,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-235-000-1",
+            "cantidad": 1100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-235-000-1",
+            "cantidad": 800,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 30,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 575,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 8000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 11000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 15,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 60,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 1200,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 955,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "P40171-234-000-1",
+            "cantidad": 20,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "S280-0019-9",
+            "cantidad": 475,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 510,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "P40171-233-000-1",
+            "cantidad": 610,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-15"
+        },
+        {
+            "modelo": "S280-0019-9",
+            "cantidad": 2200,
+            "fecha_entrega": "2026-05-15"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "R40111-044",
+            "cantidad": 5,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "P09141-026-003-0",
+            "cantidad": 5,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "R16111-014",
+            "cantidad": 5,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "P19171-185-021-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "PT09171-054-014-1",
+            "cantidad": 2100,
+            "fecha_entrega": "2026-05-18"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-22"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-25"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-29"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-29"
+        },
+        {
+            "modelo": "R19111-039",
+            "cantidad": 5,
+            "fecha_entrega": "2026-05-29"
+        },
+        {
+            "modelo": "P19050-005-001-0",
+            "cantidad": 5,
+            "fecha_entrega": "2026-05-29"
+        },
+        {
+            "modelo": "STEEL-TONS-BODYS",
+            "cantidad": 40,
+            "fecha_entrega": "2026-05-30"
+        },
+        {
+            "modelo": "PAINT-LBS",
+            "cantidad": 1138,
+            "fecha_entrega": "2026-05-30"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 1500,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 435,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "P40171-235-000-1",
+            "cantidad": 435,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 900,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "P19171-028-000-1",
+            "cantidad": 305,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-06-01"
+        },
+        {
+            "modelo": "P40171-261-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-06-08"
+        },
+        {
+            "modelo": "P40171-261-000-1",
+            "cantidad": 285,
+            "fecha_entrega": "2026-06-08"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 2200,
+            "fecha_entrega": "2026-06-08"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-06-08"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-06-08"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 6000,
+            "fecha_entrega": "2026-06-08"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 6000,
+            "fecha_entrega": "2026-06-15"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-06-15"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-06-22"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-06-22"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 2520,
+            "fecha_entrega": "2026-06-22"
+        },
+        {
+            "modelo": "P09171-056-115-1",
+            "cantidad": 1150,
+            "fecha_entrega": "2026-06-22"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 18200,
+            "fecha_entrega": "2026-06-29"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 13000,
+            "fecha_entrega": "2026-06-29"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-07-06"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 9000,
+            "fecha_entrega": "2026-07-20"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 2115,
+            "fecha_entrega": "2026-08-03"
+        },
+        {
+            "modelo": "R09171-012",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-08-05"
+        },
+        {
+            "modelo": "P40171-312-001-1",
+            "cantidad": 405,
+            "fecha_entrega": "2026-08-06"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 10000,
+            "fecha_entrega": "2026-08-17"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 280,
+            "fecha_entrega": "2026-12-15"
+        }
+    ],
+    "estaciones": {
+        "corte torreta": {
+            "cantidad": 3
+        },
+        "corte láser": {
+            "cantidad": 3
+        },
+        "rebabeo": {
+            "cantidad": 3
+        },
+        "doblez": {
+            "cantidad": 4
+        },
+        "inserción": {
+            "cantidad": 2
+        },
+        "soldadura": {
+            "cantidad": 2
+        },
+        "pulido": {
+            "cantidad": 1
+        },
+        "lavado": {
+            "cantidad": 1
+        },
+        "masking": {
+            "cantidad": 1
+        },
+        "pintura": {
+            "cantidad": 1
+        },
+        "ensamble": {
+            "cantidad": 1
+        },
+        "empaque": {
+            "cantidad": 1
+        }
+    }
+}

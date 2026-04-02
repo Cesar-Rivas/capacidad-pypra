@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Kanban de Producción</title>
+    <style>
+         :root {
+            --bg-kanban: #f0f2f5;
+            --column-bg: #ebedf0;
+            --header-dark: #2c3e50;
+            --clr-corte: #e74c3c;
+            --clr-doblez: #f1c40f;
+            --clr-soldadura: #9b59b6;
+            --clr-pintura: #2ecc71;
+            --clr-ensamble: #34495e;
+            --clr-otros: #95a5a6;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: var(--bg-kanban);
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: var(--header-dark);
+            border-bottom: 2px solid var(--header-dark);
+            padding-bottom: 10px;
+        }
+        
+        .kanban-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            padding-bottom: 20px;
+            align-items: flex-start;
+            min-height: 85vh;
+        }
+        
+        .week-column {
+            background: var(--column-bg);
+            min-width: 300px;
+            max-width: 300px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .week-header {
+            padding: 15px;
+            background: var(--header-dark);
+            color: white;
+            border-radius: 8px 8px 0 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .cards-container {
+            padding: 10px;
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+            border-left: 6px solid #3498db;
+        }
+        
+        .card-title {
+            font-weight: bold;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        
+        .card-info {
+            font-size: 0.85rem;
+            color: #555;
+        }
+        /* Mini fila de procesos */
+        
+        .process-flow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 12px;
+            padding-top: 8px;
+            border-top: 1px solid #eee;
+        }
+        
+        .proc-badge {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        /* Lógica de colores */
+        
+        .bg-corte {
+            background: var(--clr-corte);
+        }
+        
+        .bg-doblez {
+            background: var(--clr-doblez);
+            color: #333;
+        }
+        
+        .bg-soldadura {
+            background: var(--clr-soldadura);
+        }
+        
+        .bg-pintura {
+            background: var(--clr-pintura);
+        }
+        
+        .bg-ensamble {
+            background: var(--clr-ensamble);
+        }
+        
+        .bg-dual {
+            background: linear-gradient(90deg, var(--clr-corte) 50%, #e67e22 50%);
+        }
+        
+        .bg-otros {
+            background: var(--clr-otros);
+        }
+        
+        .week-footer {
+            padding: 12px;
+            background: white;
+            border-top: 1px solid #ddd;
+            font-weight: bold;
+            text-align: right;
+            border-radius: 0 0 8px 8px;
+            font-size: 0.9rem;
+        }
+        
+        .error-msg {
+            color: red;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Planificación Semanal (Kanban)</h1>
+    <div class="kanban-container" id="kanbanBoard">
+    </div>
+
+    <script>
+        // 1. Función para calcular número de semana ISO
+        function getWeekNumber(d) {
+            d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+            d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+            var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+            return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+        }
+
+        // 2. Función Principal de Renderizado
+        function renderizarKanban(data) {
+            const board = document.getElementById('kanbanBoard');
+            const semanas = {};
+
+            // Agrupar POs por semana
+            data.ordenes_compra.forEach(po => {
+                const fecha = new Date(po.fecha_entrega);
+                if (isNaN(fecha)) return;
+
+                const numSemana = `Semana ${getWeekNumber(fecha)} (${fecha.getFullYear()})`;
+                if (!semanas[numSemana]) semanas[numSemana] = [];
+                semanas[numSemana].push(po);
+            });
+
+            board.innerHTML = ""; // Limpiar mensaje de carga
+
+            // Crear columnas por semana
+            Object.keys(semanas).sort().forEach(sem => {
+                const col = document.createElement('div');
+                col.className = 'week-column';
+
+                let totalPzas = 0;
+                const cardsHtml = semanas[sem].map(po => {
+                    totalPzas += po.cantidad;
+                    const modelo = data.modelos[po.modelo];
+                    let badges = '';
+
+                    if (modelo) {
+                        Object.keys(modelo.tasas).forEach(p => {
+                            let clase = 'bg-otros';
+                            const pLow = p.toLowerCase();
+                            if (pLow.includes('corte')) {
+                                clase = modelo.corte_tipo.toLowerCase() === 'dual' ? 'bg-dual' : 'bg-corte';
+                            } else if (pLow.includes('doblez')) clase = 'bg-doblez';
+                            else if (pLow.includes('soldadura')) clase = 'bg-soldadura';
+                            else if (pLow.includes('pintura')) clase = 'bg-pintura';
+                            else if (pLow.includes('ensamble')) clase = 'bg-ensamble';
+
+                            badges += `<span class="proc-badge ${clase}">${p.replace('pzas_hr_','')}</span>`;
+                        });
+                    }
+
+                    return `
+                    <div class="card">
+                        <span class="card-title">${po.modelo}</span>
+                        <div class="card-info">
+                            <b>PO:</b> ${po.po || 'N/A'} | <b>Cant:</b> ${po.cantidad.toLocaleString()}
+                        </div>
+                        <div class="process-flow">${badges}</div>
+                    </div>
+                `;
+                }).join('');
+
+                col.innerHTML = `
+                <div class="week-header">${sem}</div>
+                <div class="cards-container">${cardsHtml}</div>
+                <div class="week-footer">Total: ${totalPzas.toLocaleString()} pzas</div>
+            `;
+                board.appendChild(col);
+            });
+        }
+
+        // 3. EJECUCIÓN AUTOMÁTICA AL CARGAR
+        console.log("Intentando cargar db.json...");
+        fetch('db.json')
+            .then(response => {
+                if (!response.ok) throw new Error("No se encontró db.json en esta carpeta.");
+                return response.json();
+            })
+            .then(data => {
+                console.log("Datos cargados con éxito");
+                renderizarKanban(data);
+            })
+            .catch(error => {
+                console.error(error);
+                document.getElementById('kanbanBoard').innerHTML = `
+                <div class="error-msg">
+                    <h3>Error al cargar datos</h3>
+                    <p>${error.message}</p>
+                    <p>Asegúrate de que <b>db.json</b> esté en la misma carpeta que este HTML.</p>
+                </div>`;
+            });
+    </script>
+</body>
+
+</html>

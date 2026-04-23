@@ -2324,8 +2324,13 @@
         },
         {
             "modelo": "999",
-            "cantidad": 3500,
+            "cantidad": 4500,
             "fecha_entrega": "2026-05-25"
+        },
+         {
+            "modelo": "999",
+            "cantidad": 4500,
+            "fecha_entrega": "2026-04-23"
         },
         {
             "modelo": "P19171-195-054-1",

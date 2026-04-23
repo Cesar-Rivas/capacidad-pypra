@@ -292,7 +292,7 @@
             "corte_tipo": "Dual",
             "tasas": {
                 "Corte": 164.0,
-                "Rebabeo": 150.0,
+                "Rebabeo": 250.0,
                 "Doblez": 249.0,
                 "Insercion": 0,
                 "Empaque": 1469.0,

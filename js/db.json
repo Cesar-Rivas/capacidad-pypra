@@ -2482,6 +2482,296 @@
             "fecha_entrega": "2026-05-11"
         },
         {
+            "modelo": "R09171-013",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-04-06"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-04-06"
+        },
+        {
+            "modelo": "PT09171-053-044-1",
+            "cantidad": 200,
+            "fecha_entrega": "2026-04-06"
+        },
+        {
+            "modelo": "P19171-195-054-1",
+            "cantidad": 50,
+            "fecha_entrega": "2026-04-10"
+        },
+        {
+            "modelo": "P09171-054-006-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P09171-054-001-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P09171-052-005-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 1380,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "P40171-237-000-1",
+            "cantidad": 130,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 100,
+            "fecha_entrega": "2026-04-13"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-04-17"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 272,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-057-072-1",
+            "cantidad": 350,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-057-072-1",
+            "cantidad": 499,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-053-167-1",
+            "cantidad": 765,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-053-112-1",
+            "cantidad": 272,
+            "fecha_entrega": "2026-04-20"
+        },
+        {
+            "modelo": "P09171-057-074-1",
+            "cantidad": 500,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P19171-030-000-3",
+            "cantidad": 1420,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P09171-056-115-1",
+            "cantidad": 1025,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P40171-264-000-1",
+            "cantidad": 5,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "P19171-030-000-3",
+            "cantidad": 1420,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "PT09171-054-014-1",
+            "cantidad": 1500,
+            "fecha_entrega": "2026-04-27"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 500,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 150,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 160,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 500,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 500,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 500,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 500,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-232-001-1",
+            "cantidad": 875,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 400,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 110,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 800,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-235-000-1",
+            "cantidad": 110,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P40171-235-000-1",
+            "cantidad": 800,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 30,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 575,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-013",
+            "cantidad": 800,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 1100,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R40111-030",
+            "cantidad": 15,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09111-091",
+            "cantidad": 60,
+            "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "P09171-055-065-1",
+            "cantidad": 1200,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 500,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "F4002676",
+            "cantidad": 955,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "P40171-234-000-1",
+            "cantidad": 20,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "S280-0019-9",
+            "cantidad": 475,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "P40171-238-000-1",
+            "cantidad": 510,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
+            "modelo": "P40171-233-000-1",
+            "cantidad": 610,
+            "fecha_entrega": "2026-05-11"
+        },
+        {
             "modelo": "R09171-012",
             "cantidad": 5000,
             "fecha_entrega": "2026-05-15"

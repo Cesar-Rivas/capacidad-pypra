@@ -2499,8 +2499,13 @@
         },
         {
             "modelo": "R09111-033",
-            "cantidad": 10000,
+            "cantidad": 5000,
             "fecha_entrega": "2026-05-14"
+        },
+        {
+            "modelo": "R09111-033",
+            "cantidad": 5000,
+            "fecha_entrega": "2026-05-28"
         },
         {
             "modelo": "R09111-033",

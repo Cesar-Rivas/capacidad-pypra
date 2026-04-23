@@ -355,7 +355,7 @@
                 "999": {
             "corte_tipo": "Dual",
             "tasas": {
-                "Corte": 100.0,
+                "Corte": 80.0,
                 "Rebabeo": 0,
                 "Doblez": 0,
                 "Insercion": 0,

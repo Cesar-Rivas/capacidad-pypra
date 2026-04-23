@@ -2343,8 +2343,13 @@
         },
         {
             "modelo": "R09171-014",
-            "cantidad": 5000,
+            "cantidad": 3000,
             "fecha_entrega": "2026-05-04"
+        },
+        {
+            "modelo": "R09171-014",
+            "cantidad": 3000,
+            "fecha_entrega": "2026-04-02"
         },
         {
             "modelo": "R09171-013",

@@ -339,7 +339,7 @@
         "R09171-014": {
             "corte_tipo": "Dual",
             "tasas": {
-                "Corte": 46.0,
+                "Corte": 66.0,
                 "Rebabeo": 162.0,
                 "Doblez": 328.0,
                 "Insercion": 240.0,
@@ -3263,8 +3263,18 @@
         },
         {
             "modelo": "R09171-014",
-            "cantidad": 10000,
+            "cantidad": 1000,
             "fecha_entrega": "2026-06-01"
+        },,
+        {
+            "modelo": "R09171-014",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-04-16"
+        },,
+        {
+            "modelo": "R09171-014",
+            "cantidad": 1000,
+            "fecha_entrega": "2026-04-10"
         },
         {
             "modelo": "R09111-033",
@@ -3293,7 +3303,7 @@
         },
         {
             "modelo": "R09171-012",
-            "cantidad": 10000,
+            "cantidad": 1000,
             "fecha_entrega": "2026-06-01"
         },
         {

@@ -352,6 +352,22 @@
                 "Pulido": 0
             }
         },
+                "999": {
+            "corte_tipo": "Dual",
+            "tasas": {
+                "Corte": 100.0,
+                "Rebabeo": 0,
+                "Doblez": 0,
+                "Insercion": 0,
+                "Empaque": 0,
+                "Lavado": 0,
+                "Masking": 0,
+                "Pintura": 0,
+                "Soldadura": 0,
+                "Ensamble": 0,
+                "Pulido": 0
+            }
+        },
         "R09171-013": {
             "corte_tipo": "Dual",
             "tasas": {
@@ -2305,6 +2321,11 @@
             "modelo": "PT09171-053-044-1",
             "cantidad": 200,
             "fecha_entrega": "2026-04-06"
+        },
+        {
+            "modelo": "999",
+            "cantidad": 3500,
+            "fecha_entrega": "2026-05-25"
         },
         {
             "modelo": "P19171-195-054-1",

@@ -2758,16 +2758,16 @@
             "cantidad": 1
         },
         "masking": {
-            "cantidad": 2
+            "cantidad": 3
         },
         "pintura": {
             "cantidad": 1
         },
         "ensamble": {
-            "cantidad": 2
+            "cantidad": 3
         },
         "empaque": {
-            "cantidad": 2
+            "cantidad": 3
         }
     }
 }

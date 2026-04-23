@@ -2858,16 +2858,16 @@
             "cantidad": 1
         },
         "masking": {
-            "cantidad": 1
+            "cantidad": 3
         },
         "pintura": {
             "cantidad": 1
         },
         "ensamble": {
-            "cantidad": 1
+            "cantidad": 3
         },
         "empaque": {
-            "cantidad": 1
+            "cantidad": 3
         }
     }
 }

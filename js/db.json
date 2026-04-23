@@ -2272,11 +2272,6 @@
             "fecha_entrega": "2026-04-20"
         },
         {
-            "modelo": "PT09171-054-014-1",
-            "cantidad": 1500,
-            "fecha_entrega": "2026-04-20"
-        },
-        {
             "modelo": "P09171-057-074-1",
             "cantidad": 500,
             "fecha_entrega": "2026-04-27"
@@ -2532,11 +2527,6 @@
             "fecha_entrega": "2026-05-18"
         },
         {
-            "modelo": "PT09171-054-014-1",
-            "cantidad": 2100,
-            "fecha_entrega": "2026-05-18"
-        },
-        {
             "modelo": "R09171-012",
             "cantidad": 5000,
             "fecha_entrega": "2026-05-22"
@@ -2664,11 +2654,6 @@
         {
             "modelo": "P09171-053-112-1",
             "cantidad": 272,
-            "fecha_entrega": "2026-04-20"
-        },
-        {
-            "modelo": "PT09171-054-014-1",
-            "cantidad": 1500,
             "fecha_entrega": "2026-04-20"
         },
         {

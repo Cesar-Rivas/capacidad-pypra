@@ -339,8 +339,8 @@
         "R09171-014": {
             "corte_tipo": "Dual",
             "tasas": {
-                "Corte": 86.0,
-                "Rebabeo": 132.0,
+                "Corte": 46.0,
+                "Rebabeo": 162.0,
                 "Doblez": 328.0,
                 "Insercion": 240.0,
                 "Empaque": 1469.0,

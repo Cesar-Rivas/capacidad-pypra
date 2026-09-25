@@ -11,6 +11,15 @@
     <script src="js/ui.js" defer></script>
     <script src="js/app.js" defer></script>
     <link href="style.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+        /* Estilos del Switch Maestro */
+        .switch { position: relative; display: inline-block; width: 44px; height: 22px; }
+        .switch input { opacity: 0; width: 0; height: 0; }
+        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .3s; border-radius: 22px; }
+        .slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 3px; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; }
+        input:checked + .slider { background-color: #2196F3; }
+        input:checked + .slider:before { transform: translateX(22px); }
+    </style>
 </head>
 
 <body>
@@ -112,6 +121,22 @@
                 <input type="number" step="0.01" id="inEffGlobal" style="width: 120px; text-align: center;" value=1>
             </div>
 
+            <details class="config-details" open>
+                <summary>Capacidades por Estación (Total de Hrs por semana)</summary>
+                
+                <!-- Switch Maestro para alternar Automático / Manual -->
+                <div style="display: flex; justify-content: space-between; align-items: center; background: #f0f4f8; padding: 10px; border-radius: 6px; margin: 10px 0;">
+                    <span style="font-weight: bold; font-size: 0.9em; color: #333;">Horas automáticas:</span>
+                    <label class="switch">
+                        <input type="checkbox" id="switchModoManual">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div id="manualCapacitiesContainer" style="padding: 10px; display: flex; flex-direction: column; gap: 10px;">
+                </div>
+            </details>
+
             <details class="config-details">
                 <summary>Horario: Planta Principal</summary>
                 <table class="config-table">
@@ -119,42 +144,15 @@
                         <th>Día</th>
                         <th>1er Turno</th>
                         <th>2do Turno</th>
+                        <th>3er Turno</th>
                     </tr>
-                    <tr>
-                        <td>Lun</td>
-                        <td><input id="pp-lun-t1" type="number" step="0.5"></td>
-                        <td><input id="pp-lun-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Mar</td>
-                        <td><input id="pp-mar-t1" type="number" step="0.5"></td>
-                        <td><input id="pp-mar-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Mié</td>
-                        <td><input id="pp-mie-t1" type="number" step="0.5"></td>
-                        <td><input id="pp-mie-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Jue</td>
-                        <td><input id="pp-jue-t1" type="number" step="0.5"></td>
-                        <td><input id="pp-jue-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Vie</td>
-                        <td><input id="pp-vie-t1" type="number" step="0.5"></td>
-                        <td><input id="pp-vie-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Sáb</td>
-                        <td><input id="pp-sab-t1" type="number" step="0.5"></td>
-                        <td><input id="pp-sab-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Dom</td>
-                        <td><input id="pp-dom-t1" type="number" step="0.5"></td>
-                        <td><input id="pp-dom-t2" type="number" step="0.5"></td>
-                    </tr>
+                    <tr><td>Lun</td><td><input id="pp-lun-t1" type="number" step="0.5"></td><td><input id="pp-lun-t2" type="number" step="0.5"></td><td><input id="pp-lun-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Mar</td><td><input id="pp-mar-t1" type="number" step="0.5"></td><td><input id="pp-mar-t2" type="number" step="0.5"></td><td><input id="pp-mar-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Mié</td><td><input id="pp-mie-t1" type="number" step="0.5"></td><td><input id="pp-mie-t2" type="number" step="0.5"></td><td><input id="pp-mie-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Jue</td><td><input id="pp-jue-t1" type="number" step="0.5"></td><td><input id="pp-jue-t2" type="number" step="0.5"></td><td><input id="pp-jue-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Vie</td><td><input id="pp-vie-t1" type="number" step="0.5"></td><td><input id="pp-vie-t2" type="number" step="0.5"></td><td><input id="pp-vie-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Sáb</td><td><input id="pp-sab-t1" type="number" step="0.5"></td><td><input id="pp-sab-t2" type="number" step="0.5"></td><td><input id="pp-sab-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Dom</td><td><input id="pp-dom-t1" type="number" step="0.5"></td><td><input id="pp-dom-t2" type="number" step="0.5"></td><td><input id="pp-dom-t3" class="input-turno3" type="number" step="0.5"></td></tr>
                 </table>
             </details>
 
@@ -165,42 +163,15 @@
                         <th>Día</th>
                         <th>1er Turno</th>
                         <th>2do Turno</th>
+                        <th>3er Turno</th>
                     </tr>
-                    <tr>
-                        <td>Lun</td>
-                        <td><input id="tp-lun-t1" type="number" step="0.5"></td>
-                        <td><input id="tp-lun-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Mar</td>
-                        <td><input id="tp-mar-t1" type="number" step="0.5"></td>
-                        <td><input id="tp-mar-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Mié</td>
-                        <td><input id="tp-mie-t1" type="number" step="0.5"></td>
-                        <td><input id="tp-mie-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Jue</td>
-                        <td><input id="tp-jue-t1" type="number" step="0.5"></td>
-                        <td><input id="tp-jue-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Vie</td>
-                        <td><input id="tp-vie-t1" type="number" step="0.5"></td>
-                        <td><input id="tp-vie-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Sáb</td>
-                        <td><input id="tp-sab-t1" type="number" step="0.5"></td>
-                        <td><input id="tp-sab-t2" type="number" step="0.5"></td>
-                    </tr>
-                    <tr>
-                        <td>Dom</td>
-                        <td><input id="tp-dom-t1" type="number" step="0.5"></td>
-                        <td><input id="tp-dom-t2" type="number" step="0.5"></td>
-                    </tr>
+                    <tr><td>Lun</td><td><input id="tp-lun-t1" type="number" step="0.5"></td><td><input id="tp-lun-t2" type="number" step="0.5"></td><td><input id="tp-lun-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Mar</td><td><input id="tp-mar-t1" type="number" step="0.5"></td><td><input id="tp-mar-t2" type="number" step="0.5"></td><td><input id="tp-mar-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Mié</td><td><input id="tp-mie-t1" type="number" step="0.5"></td><td><input id="tp-mie-t2" type="number" step="0.5"></td><td><input id="tp-mie-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Jue</td><td><input id="tp-jue-t1" type="number" step="0.5"></td><td><input id="tp-jue-t2" type="number" step="0.5"></td><td><input id="tp-jue-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Vie</td><td><input id="tp-vie-t1" type="number" step="0.5"></td><td><input id="tp-vie-t2" type="number" step="0.5"></td><td><input id="tp-vie-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Sáb</td><td><input id="tp-sab-t1" type="number" step="0.5"></td><td><input id="tp-sab-t2" type="number" step="0.5"></td><td><input id="tp-sab-t3" class="input-turno3" type="number" step="0.5"></td></tr>
+                    <tr><td>Dom</td><td><input id="tp-dom-t1" type="number" step="0.5"></td><td><input id="tp-dom-t2" type="number" step="0.5"></td><td><input id="tp-dom-t3" class="input-turno3" type="number" step="0.5"></td></tr>
                 </table>
             </details>
 

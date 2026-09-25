@@ -1,20 +1,27 @@
 function limpiarTexto(texto) {
     if (!texto) return "";
-    // Convierte a minúscula, quita espacios extra y ELIMINA ACENTOS (áéíóú -> aeiou)
     return texto.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
-// Función inteligente para cruzar el nombre del JSON con la Estación real
+
+function getNumeroEstaciones(nombreEstacion) {
+    if (appConfig.stationCounts && appConfig.stationCounts[nombreEstacion] !== undefined) {
+        return appConfig.stationCounts[nombreEstacion];
+    }
+    if (globalData.estaciones && globalData.estaciones[nombreEstacion]) {
+        return globalData.estaciones[nombreEstacion].cantidad;
+    }
+    return 1;
+}
+
 function encontrarEstacion(nombreProcesoOriginal, llavesEstaciones) {
     const pLimpio = limpiarTexto(nombreProcesoOriginal);
 
-    // 1er Filtro: Búsqueda Exacta (Garantiza que Insercion vaya a Insercion)
     let target = llavesEstaciones.find(est => limpiarTexto(est) === pLimpio);
     if (target) return target;
 
-    // 2do Filtro: Mapeo por raíces (Evita que palabras cortas se roben horas)
     target = llavesEstaciones.find(est => {
         const eLimpio = limpiarTexto(est);
-        if (!eLimpio) return false; // Protección contra strings vacíos o nulos
+        if (!eLimpio) return false;
 
         if (eLimpio.includes('inser') && pLimpio.includes('inser')) return true;
         if (eLimpio.includes('sold') && pLimpio.includes('sold')) return true;
@@ -36,34 +43,37 @@ function getCapacidadSemanalProceso(nombreProceso, numEstaciones) {
     const p = nombreProceso.toLowerCase();
     let horasSemanaEstacion = 0;
 
-    // Función auxiliar para sumar los turnos de todos los días en la matriz
     const sumarHoras = (departamento) => {
         let total = 0;
         for (const dia in appConfig[departamento]) {
-            total += (appConfig[departamento][dia].turno1 + appConfig[departamento][dia].turno2);
+            total += (appConfig[departamento][dia].turno1 + 
+                      appConfig[departamento][dia].turno2 + 
+                      (appConfig[departamento][dia].turno3 || 0));
         }
         return total;
     };
 
     if (p.includes('lavado') || p.includes('masking') || p.includes('pintura')) {
-        // Taller de Pintura: Suma total de sus turnos (Suele ser eficiencia 100%)
         horasSemanaEstacion = sumarHoras('tallerPintura');
     } else {
-        // Planta Principal: Suma total de sus turnos multiplicada por la eficiencia global
-        horasSemanaEstacion = sumarHoras('plantaPrincipal') * appConfig.eficienciaGlobal;
+        horasSemanaEstacion = sumarHoras('plantaPrincipal'); 
     }
 
-    return {
-        unitaria: horasSemanaEstacion,
-        totalSemanal: horasSemanaEstacion * numEstaciones
-    };
+    let unitaria = horasSemanaEstacion;
+    let totalSemanal = horasSemanaEstacion * numEstaciones;
+
+    if (appConfig.usarCapacidadesManuales && appConfig.manualCapacities && appConfig.manualCapacities[nombreProceso] !== undefined) {
+        totalSemanal = parseFloat(appConfig.manualCapacities[nombreProceso]);
+        unitaria = (numEstaciones > 0) ? (totalSemanal / numEstaciones) : 0;
+    }
+
+    return { unitaria, totalSemanal };
 }
 
 function calcularCargaProcesos(ordenesAProcesar) {
     const carga = {};
     const semanasUnicas = new Set();
 
-    // Inicializar usando las llaves reales en minúsculas
     if (globalData.estaciones) {
         Object.keys(globalData.estaciones).forEach(e => {
             carga[e.toLowerCase().trim()] = {};
@@ -84,8 +94,10 @@ function calcularCargaProcesos(ordenesAProcesar) {
         Object.entries(mod.tasas).forEach(([pName, pzasHr]) => {
             if (!pzasHr || pzasHr <= 0) return;
 
-            const hrsReq = po.cantidad / pzasHr;
-            const pKeyLimpio = limpiarTexto(pName); // <- Texto sin acentos
+            const tasaEfectiva = pzasHr * (appConfig.eficienciaGlobal || 1);
+            const hrsReq = po.cantidad / tasaEfectiva;
+            
+            const pKeyLimpio = limpiarTexto(pName);
 
             if (pKeyLimpio.includes('corte')) {
                 const tipoCorte = limpiarTexto(mod.corte_tipo || 'torreta');
@@ -98,9 +110,7 @@ function calcularCargaProcesos(ordenesAProcesar) {
                     acumular(carga, 'corte torreta', semLabel, hrsReq);
                 }
             } else {
-                // Usamos la nueva función segura
                 let target = encontrarEstacion(pName, Object.keys(carga));
-
                 if (target) {
                     if (!carga[target][semLabel]) carga[target][semLabel] = 0;
                     carga[target][semLabel] += hrsReq;
@@ -118,7 +128,6 @@ function calcularCargaProcesos(ordenesAProcesar) {
     return { carga, listaSem };
 }
 
-// Filtra las órdenes según el selector de mes
 function filtrarOrdenesPorMes(ordenes, mesSeleccionado) {
     if (mesSeleccionado === "todos") return ordenes;
 
@@ -135,12 +144,10 @@ function filtrarOrdenesPorMes(ordenes, mesSeleccionado) {
     });
 }
 
-// Extrae la lógica de sumar las horas por modelo que antes estaba revuelta en la UI
 function procesarDesgloseModelos(ordenesAProcesar) {
     const resumenModelos = {};
     const omitidos = {};
 
-    // Extraer todos los procesos dinámicamente desde la BD
     const estacionesOriginales = Object.keys(globalData.estaciones);
     const estacionesKeys = estacionesOriginales.map(e => e.toLowerCase().trim());
 
@@ -154,7 +161,6 @@ function procesarDesgloseModelos(ordenesAProcesar) {
             return;
         }
 
-        // Inicializar el modelo con todas las estaciones en 0
         if (!resumenModelos[idBusqueda]) {
             resumenModelos[idBusqueda] = { cant: 0, hrs: {} };
             estacionesKeys.forEach(est => resumenModelos[idBusqueda].hrs[est] = 0);
@@ -163,7 +169,10 @@ function procesarDesgloseModelos(ordenesAProcesar) {
 
         Object.entries(modInfo.tasas).forEach(([pName, tasa]) => {
             if (!tasa || tasa === 0) return;
-            const hrs = po.cantidad / tasa;
+            
+            const tasaEfectiva = tasa * (appConfig.eficienciaGlobal || 1);
+            const hrs = po.cantidad / tasaEfectiva;
+            
             const pKeyLimpio = limpiarTexto(pName);
 
             if (pKeyLimpio.includes('corte')) {
@@ -182,11 +191,9 @@ function procesarDesgloseModelos(ordenesAProcesar) {
             } else {
                 let target = estacionesKeys.find(est => {
                     const estLimpio = limpiarTexto(est);
-
                     if (pKeyLimpio.includes(estLimpio) || estLimpio.includes(pKeyLimpio)) return true;
                     if (estLimpio.includes('soldadura') && pKeyLimpio.includes('sold')) return true;
                     if (estLimpio.includes('pulido') && pKeyLimpio.includes('pul')) return true;
-
                     return false;
                 });
 
@@ -197,6 +204,5 @@ function procesarDesgloseModelos(ordenesAProcesar) {
         });
     });
 
-    // Retornamos las llaves también para que UI sepa qué columnas dibujar
     return { resumenModelos, omitidos, estacionesOriginales, estacionesKeys };
 }
